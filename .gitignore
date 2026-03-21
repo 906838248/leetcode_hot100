@@ -1,5 +1,7 @@
 # Visual Studio Code 配置
 .vscode/
+.trae/
+.obsidian/
 
 # Prerequisites
 *.d
