@@ -19,11 +19,10 @@
 1. **题目描述**：清晰的问题定义和约束条件
 2. **解题思路**：多种解法的核心思想和原理
 3. **代码实现**：
-   - `code/` 文件夹下存放 Python 和 C++ 源代码
+   - Python 和 C++ 源代码
    - 每段代码都包含详细的中文注释
    - 代码符合语言规范，易于阅读和理解
 4. **解析文档**：
-   - `readme/` 文件夹下存放详细解析
    - 包含图解过程和复杂度分析
    - 提供多种解法的对比和适用场景
 
@@ -34,13 +33,11 @@
 ```
 leetcode_hot100/
 ├── README.md                              # 项目说明文档
-├── 1.two numbers sum/                    # 第1题：两数之和
-│   ├── code/                             # 代码文件夹
-│   │   ├── 1.py                         # Python 实现
-│   │   └── 1.cpp                        # C++ 实现
-│   └── readme/                           # 解析文档文件夹
-│       ├── 1. 两数之和.md                # 解题思路文档
-├── 2./                   
+├── 1.两数之和/                           # 第1题：两数之和
+│   ├── 1.py                             # Python 实现
+│   ├── 1.cpp                            # C++ 实现
+│   └── 1. 两数之和.md                    # 解题思路文档
+├── 2.字母异位词分组/
 │   └── ...
 └── ...
 ```
@@ -51,18 +48,22 @@ leetcode_hot100/
 
 | 题号 | 题目名称 | 难度 | Python | C++ | 解析文档 |
 |------|---------|------|--------|-----|---------|
-| 1 | 两数之和 | 简单 | [代码](1.two%20numbers%20sum/code/1.py) | [代码](1.two%20numbers%20sum/code/1.cpp) | [解析](1.two%20numbers%20sum/readme/1.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) |
-| 2 | 字母异位词分组 | 中等 | [代码](2.%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84/code/2.py) | [代码](2.%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84/code/2.cpp) | [解析](2.%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84/readme/2.%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84.md) |
-| 3 | 最长连续序列 | 中等 | [代码](3.%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/code/3.1.py) | [代码](3.%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/code/3.cpp) | [解析](3.%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/readme/3.%20%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97.md) |
-| 4 | 移动零 | 简单 | [代码](4.%E7%A7%BB%E5%8A%A8%E9%9B%B6/code/4.py) | [代码](4.%E7%A7%BB%E5%8A%A8%E9%9B%B6/code/4.cpp) | [解析](4.%E7%A7%BB%E5%8A%A8%E9%9B%B6/readme/%E7%A7%BB%E5%8A%A8%E9%9B%B6.md) |
-| 5 | 盛水最多的容器 | 中等 | [代码](5.%E7%9B%9B%E6%B0%B4%E6%9C%80%E5%A4%9A%E7%9A%84%E5%AE%B9%E5%99%A8/code/5.py) | [代码](5.%E7%9B%9B%E6%B0%B4%E6%9C%80%E5%A4%9A%E7%9A%84%E5%AE%B9%E5%99%A8/code/5.cpp) | [解析](5.%E7%9B%9B%E6%B0%B4%E6%9C%80%E5%A4%9A%E7%9A%84%E5%AE%B9%E5%99%A8/readme/%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8.md) |
-| 6 | 三数之和 | 中等 | [代码](6.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/code/6.py) | [代码](6.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/code/6.cpp) | [解析](6.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/readme/%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) |
-| 7 | 接雨水 | 困难 | [代码](7.%E6%8E%A5%E9%9B%A8%E6%B0%B4/code/7.py) | 待完成 | [解析](7.%E6%8E%A5%E9%9B%A8%E6%B0%B4/readme/%E6%8E%A5%E9%9B%A8%E6%B0%B4.md) |
+| 1 | 两数之和 | 简单 | [代码](1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/1.py) | [代码](1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/1.cpp) | [解析](1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/1.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) |
+| 2 | 字母异位词分组 | 中等 | [代码](2.%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84/2.py) | [代码](2.%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84/2.cpp) | [解析](2.%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84/2.%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84.md) |
+| 3 | 最长连续序列 | 中等 | [代码](3.%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/3.1.py) | [代码](3.%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/3.cpp) | [解析](3.%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97/3.%20%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97.md) |
+| 4 | 移动零 | 简单 | [代码](4.%E7%A7%BB%E5%8A%A8%E9%9B%B6/4.py) | [代码](4.%E7%A7%BB%E5%8A%A8%E9%9B%B6/4.cpp) | [解析](4.%E7%A7%BB%E5%8A%A8%E9%9B%B6/%E7%A7%BB%E5%8A%A8%E9%9B%B6.md) |
+| 5 | 盛水最多的容器 | 中等 | [代码](5.%E7%9B%9B%E6%B0%B4%E6%9C%80%E5%A4%9A%E7%9A%84%E5%AE%B9%E5%99%A8/5.py) | [代码](5.%E7%9B%9B%E6%B0%B4%E6%9C%80%E5%A4%9A%E7%9A%84%E5%AE%B9%E5%99%A8/5.cpp) | [解析](5.%E7%9B%9B%E6%B0%B4%E6%9C%80%E5%A4%9A%E7%9A%84%E5%AE%B9%E5%99%A8/%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8.md) |
+| 6 | 三数之和 | 中等 | [代码](6.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/6.py) | [代码](6.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/6.cpp) | [解析](6.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) |
+| 7 | 接雨水 | 困难 | [代码](7.%E6%8E%A5%E9%9B%A8%E6%B0%B4/7.py) | [代码](7.%E6%8E%A5%E9%9B%A8%E6%B0%B4/7.cpp) | [解析](7.%E6%8E%A5%E9%9B%A8%E6%B0%B4/%E6%8E%A5%E9%9B%A8%E6%B0%B4.md) |
+| 8 | 无重复字符的最长子串 | 中等 | [代码](8.%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2/8.py) | [代码](8.%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2/8.cpp) | [解析](8.%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2/8.%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md) |
+| 9 | 找到字符串中所有字母异位词 | 中等 | [代码](9.%E6%89%BE%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%AD%E6%89%80%E6%9C%89%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D/9.py) | [代码](9.%E6%89%BE%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%AD%E6%89%80%E6%9C%89%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D/9.cpp) | [解析](9.%E6%89%BE%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%AD%E6%89%80%E6%9C%89%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D/9.%E6%89%BE%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%AD%E6%89%80%E6%9C%89%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) |
+| 10 | 和为 K 的子数组 | 中等 | [代码](10.%E5%92%8C%E4%B8%BA%20K%20%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/10.py) | [代码](10.%E5%92%8C%E4%B8%BA%20K%20%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/10.cpp) | [解析](10.%E5%92%8C%E4%B8%BA%20K%20%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/10.%20%E5%92%8C%E4%B8%BA%20K%20%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md) |
+| 11 | 滑动窗口最大值 | 困难 | [代码](11.%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC/11.py) | [代码](11.%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC/11.cpp) | [解析](11.%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC/11.%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC.md) |
+| 12 | 最小覆盖子串 | 困难 | [代码](12.%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2/12.py) | 待完成 | 待完成 |
 
 > 注：持续更新中
 
 ---
-
 
 ## 代码规范
 
@@ -79,13 +80,13 @@ leetcode_hot100/
 def two_sum(nums: list[int], target: int) -> list[int]:
     """
     在数组中找出两个和为目标值的整数，返回它们的数组下标
-    
+
     使用哈希表实现，时间复杂度 O(n)，空间复杂度 O(n)
-    
+
     Args:
         nums: 整数数组
         target: 目标值
-        
+
     Returns:
         两个整数下标组成的数组，如果不存在则返回空数组
     """
@@ -110,15 +111,15 @@ def two_sum(nums: list[int], target: int) -> list[int]:
 ```cpp
 /**
  * 在数组中找出两个和为目标值的整数，返回它们的数组下标
- * 
+ *
  * @param nums 输入的整数向量
  * @param target 目标值
- * 
+ *
  * @return 两个整数下标组成的向量
  */
 vector<int> twoSum(vector<int>& nums, int target) {
     unordered_map<int, int> hashmap;
-    
+
     for (int i = 0; i < nums.size(); i++) {
         int complement = target - nums[i];
         if (hashmap.count(complement)) {
@@ -126,15 +127,12 @@ vector<int> twoSum(vector<int>& nums, int target) {
         }
         hashmap[nums[i]] = i;
     }
-    
+
     return {};
 }
 ```
 
-
 ---
-
-
 
 ## 联系方式
 
@@ -149,6 +147,5 @@ vector<int> twoSum(vector<int>& nums, int target) {
 本项目采用 MIT 许可证，详见 [LICENSE](LICENSE) 文件。
 
 ---
-
 
 **祝你刷题愉快！坚持就是胜利！**
