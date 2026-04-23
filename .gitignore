@@ -38,3 +38,8 @@
 test.py
 
 魔法方法.md
+
+# Clangd 编译数据库
+compile_commands.json
+.idea/
+.clangd
