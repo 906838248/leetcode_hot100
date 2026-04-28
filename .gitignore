@@ -43,3 +43,4 @@ test.py
 compile_commands.json
 .idea/
 .clangd
+cmake-build-debug/CMakeFiles/clion-Debug-log.txt
